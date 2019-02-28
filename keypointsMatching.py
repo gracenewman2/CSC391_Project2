@@ -5,7 +5,7 @@ import cv2
 from matplotlib import pyplot as plt
 
 img1 = cv2.imread('C:/Users/ciezcm15/Documents/Project2/IMG_1293.jpg') # Image
-img2 = cv2.imread('C:/Users/ciezcm15/Documents/Project2/mountain.jpg') # small Image
+img2 = cv2.imread('C:/Users/ciezcm15/Documents/Project2/IMG_1293_me.jpg') # small Image
 
 gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 gray1 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
